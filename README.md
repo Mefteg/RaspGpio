@@ -1,6 +1,5 @@
 # RaspGpio
-Tiny system to launch GPIO script on Raspberry Pi
-
+Tiny system to launch Nodejs script on Raspberry Pi through the network
 Install
 ---
 You need Nodejs (v 0.10+).
@@ -13,15 +12,14 @@ cd node-v0.10.35
 make
 sudo make install
 ```
-
-clone this repository
+Clone this repository
 ```
 git clone https://github.com/Mefteg/RaspGpio.git
 ```
-
 Launch
 ---
 ```
 cd RaspGpio
 node bin/www
 ```
+I recommend you the node module [forever](https://github.com/foreverjs/forever) to launch it in background.
