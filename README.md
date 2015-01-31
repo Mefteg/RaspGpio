@@ -1,9 +1,10 @@
 # RaspGpio
-Tiny system to launch Nodejs script on Raspberry Pi through the network
+Tiny system to launch Python script on Raspberry Pi through the network.
 Install
 ---
 You need Python (tested with v2.7.6).
-You need to install gpio-admin to use GPIO without root:
+
+Also, I recommend you to install gpio-admin to use GPIO without root:
 ```
 git clone git://github.com/quick2wire/quick2wire-gpio-admin.git
 cd quick2wire-gpio-admin
