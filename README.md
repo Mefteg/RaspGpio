@@ -2,16 +2,7 @@
 Tiny system to launch Nodejs script on Raspberry Pi through the network
 Install
 ---
-You need Nodejs (v 0.10+).
-You can compile it from source like that (it will take ~2h on your Pi):
-```
-wget http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
-tar xfz node-v0.10.35.tar.gz
-cd node-v0.10.35
-./configure
-make
-sudo make install
-```
+You need Python (tested with v2.7.6).
 You need to install gpio-admin to use GPIO without root:
 ```
 git clone git://github.com/quick2wire/quick2wire-gpio-admin.git
@@ -28,6 +19,8 @@ Launch
 ---
 ```
 cd RaspGpio
-node bin/www
+python server.py
 ```
-I recommend you the node module [forever](https://github.com/foreverjs/forever) to launch it in background.
+Tips
+---
+You can use the command `nohup` to launch it as a deamon.
