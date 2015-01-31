@@ -22,6 +22,10 @@ Launch
 cd RaspGpio
 python server.py
 ```
+Send a script
+---
+I recommand you the RaspGpio Plugin for SublimeText: https://github.com/Mefteg/RaspGpio-SublimeText.
+Otherwise, you can send a script via HTTP POST request (using 'file_content' as key).
 Tips
 ---
 You can use the command `nohup` to launch it as a deamon.
