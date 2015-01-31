@@ -2,7 +2,6 @@
 
 import time
 
-
 print "START"
 time.sleep(60)
 print "END"
